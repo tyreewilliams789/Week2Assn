@@ -13,7 +13,7 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Grocery List"></app-explore-container>
+  <app-explore-container name="Grocery"></app-explore-container>
 </ion-content>
 
 <ion-list>
@@ -33,3 +33,11 @@
     <ion-label>Salt/Pepper</ion-label>
   </ion-item>
 </ion-list>
+
+ <!-- fab placed to the top end -->
+ <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <ion-fab-button (click)="addItem()">
+    <ion-icon name="add"></ion-icon>
+  </ion-fab-button>
+
+ 
